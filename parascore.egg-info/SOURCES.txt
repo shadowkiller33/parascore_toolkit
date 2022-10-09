@@ -1,0 +1,10 @@
+license.txt
+setup.py
+parascore/__init__.py
+parascore/score.py
+parascore/scorer.py
+parascore/utils.py
+parascore.egg-info/PKG-INFO
+parascore.egg-info/SOURCES.txt
+parascore.egg-info/dependency_links.txt
+parascore.egg-info/top_level.txt
