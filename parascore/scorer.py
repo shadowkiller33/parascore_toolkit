@@ -3,10 +3,8 @@ import time
 import torch
 import pandas as pd
 import warnings
-from utils import edit, diverse
 from collections import defaultdict
 from transformers import AutoTokenizer
-
 from .utils import (
     get_model,
     get_tokenizer,
@@ -14,7 +12,9 @@ from .utils import (
     bert_cos_score_idf,
     lang2model,
     model2layers,
-    get_hash
+    get_hash,
+    edit,
+    diverse
 )
 
 
